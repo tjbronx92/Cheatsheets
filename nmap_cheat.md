@@ -48,7 +48,7 @@ Treat all hosts as online -- skip host discovery
 
 
 ## nmap -iL
-//Scans a list of IP addresses
+Scans a list of IP addresses
 ```
 nmap -iL ip-addresses.txt
 ```
