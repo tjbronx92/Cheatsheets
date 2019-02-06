@@ -13,17 +13,17 @@ $ nmap 8.8.8.8
 ## nmap -sS vs nmap -sT
 
 ## nmap -p
-//Specify which ports to scan (1-65535 = TCP Range)
+Specify which ports to scan (1-65535 = TCP Range)
 ```
 $ nmap -p 1-65535
 ```
 ## nmap -sV
-//Probe open ports to determine service/version info
+Probe open ports to determine service/version info
 
 
 
 ## nmap -O
-//OS identification
+OS identification
 ```
 $ nmap -O 172.16.0.15
  Starting Nmap 5.21 ( http://nmap.org ) at 2015-06-23 09:49 EST
@@ -44,7 +44,7 @@ $ nmap -O 172.16.0.15
 
 
 ## nmap -Pn (disable ping)
-//Treat all hosts as online -- skip host discovery
+Treat all hosts as online -- skip host discovery
 
 
 ## nmap -iL
@@ -53,7 +53,7 @@ $ nmap -O 172.16.0.15
 nmap -iL ip-addresses.txt
 ```
 ## nmap -T
-//Set timing template - higher is faster (less accurate)
+Set timing template - higher is faster (less accurate)
 
 ## OUTPUT PARAMETERS
 ```
