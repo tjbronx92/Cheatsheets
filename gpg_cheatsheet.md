@@ -16,18 +16,18 @@ $ gpg -i public.key
 ```
 
 ## gpg --import
-//Import/merge keys. This adds the given keys to the keyring.
+Import/merge keys. This adds the given keys to the keyring.
 
 ## gpg --decrypt
-//Decrypt the file given on the command line
+Decrypt the file given on the command line
 ```
 $ gpg -d /home/user/file.txt
 ```
 
 ## gpg --encrypt
-//Encrypt data to one or more public keys.
+Encrypt data to one or more public keys.
 ```
 $ gpg -e /home/user/file.txt
 ```
 ## gpg --list-key
-//show keys
+show keys
