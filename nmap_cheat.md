@@ -49,14 +49,14 @@ $ nmap -O 172.16.0.15
 
 ## nmap -iL
 //Scans a list of IP addresses
-
+```
 nmap -iL ip-addresses.txt
-
+```
 ## nmap -T
 //Set timing template - higher is faster (less accurate)
 
 ## OUTPUT PARAMETERS
-
+```
 $ nmap -oA
 //Output in the three major formats at once (-oN,-oX,-oG)
 $ nmap -oN
@@ -65,6 +65,6 @@ $ nmap -oG
 //GREPable Output
 $ nmap -oX
 //XML Output
-
+```
 ## nmap -sS -sV --script=vulscan www.google.com
 //Vulscan is a module which enhances nmap to a vulnerability scanner. 
