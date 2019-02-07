@@ -14,3 +14,7 @@ $ aurman -S {package}
 ```
 $ aurman -Su
 ```
+## Remove Package
+```
+$ aurman -R {package}
+```
